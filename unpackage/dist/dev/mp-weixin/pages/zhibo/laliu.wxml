@@ -1,0 +1,1 @@
+<view><video style="width:100vw;height:400rpx;" src autoplay="{{true}}" controls="{{true}}"></video></view>

@@ -1,0 +1,46 @@
+
+page{
+		background-color: #f7f8f9;
+}
+.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+}
+ uni-video {
+		margin-top: 20rpx;
+		margin-left: 5%;
+}
+.close-img {
+/* 		position: absolute;
+		height: 36rpx !important;
+		width: 36rpx !important;
+		top: -18rpx;
+		right: -18rpx; */
+		width: 50rpx;
+		height: 50rpx;
+}
+.person{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 750rpx;
+		height: 60rpx;
+		background-color: #ffffff;
+		box-shadow: 0px 1px 5px 0px rgb(230, 230, 230);
+		margin-bottom: 50rpx;
+}
+.title-item{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 750rpx;
+}
+.title-item text{
+		color: #333333;
+}
+.line{
+		margin-top: 100rpx;
+}
+
