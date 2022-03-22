@@ -79,9 +79,9 @@
 					).then(res => {
 						if (res.msg == '成功' ) {
 							console.log(res.data);
-							if(res.data.userRole==1){
+							if(res.data.user.userRole==1){
 								uni.setStorageSync('change', 0)
-								uni.setStorageSync('userId', res.data.userId)
+								uni.setStorageSync('userId', res.data.user.userId)
 								uni.reLaunch({
 									url: '../index/index?change=0'
 								});
@@ -91,9 +91,9 @@
 								})
 							}
 							else
-							if (res.data.userRole==0) {
+							if (res.data.user.userRole==0) {
 								uni.setStorageSync('change', 1)
-								uni.setStorageSync('userId', res.data.userId)
+								uni.setStorageSync('userId', res.data.user.userId)
 								uni.reLaunch({
 									url: '../index/index?change=1'
 								});
@@ -121,9 +121,9 @@
 					).then(res => {
 						if (res.msg == '成功' ) {
 							console.log(res.data);
-							if(res.data.userRole==1){
+							if(res.data.user.userRole==1){
 								uni.setStorageSync('change', 0)
-								uni.setStorageSync('userId', res.data.userId)
+								uni.setStorageSync('userId', res.data.user.userId)
 								uni.reLaunch({
 									url: '../index/index?change=0'
 								});
@@ -133,9 +133,9 @@
 								})
 							}
 							else
-							if (res.data.userRole==0) {
+							if (res.data.user.userRole==0) {
 								uni.setStorageSync('change', 1)
-								uni.setStorageSync('userId', res.data.userId)
+								uni.setStorageSync('userId', res.data.user.userId)
 								uni.reLaunch({
 									url: '../index/index?change=1'
 								});
